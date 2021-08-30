@@ -2,7 +2,7 @@ import React, { useCallback, useEffect, useState } from "react";
 
 const UsecallbackHook = () => {
   const [toggle, setToggle] = useState(false);
-  const [data, setData] = useState("Hi, there");
+  const [data] = useState("Hi, there");
 
   const returnComment = useCallback(
     (name) => {
